@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # crowdhound-examples
 
 This project provides examples and a tutorial for how to add Crowdhound to a website.
@@ -9,6 +8,4 @@ While going through the tutorial you will view the examples, and add the functio
 ![2016-09-01_10-56-07](https://cloud.githubusercontent.com/assets/848697/18153876/ce33e6f0-7032-11e6-9a8a-38c34fd9a0d8.png)
 
 To start, see the [Wiki](https://github.com/tooltwist/crowdhound-examples/wiki).
-=======
 # theo-snailadvisor
->>>>>>> d76c10eb25a9b18e28b03f20004bd24f36a2ff75
