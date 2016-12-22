@@ -187,6 +187,15 @@ Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve you
 			<p/>
 
 		</div>
+
+		<h3>Current weather for snails is...</h3>
+			<div ng-app="myApp" ng-controller="myCtrl">
+				City: {{weather.location}}
+				<br>
+				<weather-icon cloudiness="{{ weather.clouds }}"></weather-icon>
+				Current: {{ weather.temp.current}}<br>
+				min: {{ weather.temp.min }}, max: {{ weather.temp.max }}
+			</div><!-- ng-app="myApp" -->
 	</div>
 
 </div>
@@ -198,16 +207,6 @@ Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve you
 		</div>
 	</div><!-- jumbotron -->
 </div>
-
-
-<h3>Current weather for snails is...</h3>
-	<div ng-app="myApp" ng-controller="myCtrl">
-		City: {{weather.location}}
-		<br>
-		<weather-icon cloudiness="{{ weather.clouds }}"></weather-icon>
-		Current: {{ weather.temp.current}}<br>
-		min: {{ weather.temp.min }}, max: {{ weather.temp.max }}
-	</div><!-- ng-app="myApp" -->
 
 </body>
 
